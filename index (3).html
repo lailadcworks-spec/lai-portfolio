@@ -1,0 +1,1320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--
+  BEFORE YOU PUBLISH (edit these)
+  1. Replace https://YOUR-DOMAIN.com with your real address, in the 5 places marked DOMAIN.
+     On GitHub Pages the address looks like https://YOUR-USERNAME.github.io/YOUR-REPO/
+  2. Client links: in the Clients section, replace each REPLACE-... address with the real page. Links still saying REPLACE stay hidden.
+  2b. Title: keep it under about 60 characters. This is the blue link on Google.
+  3. Description: keep it under about 155 characters. This is the gray text under it.
+  4. Social image: save a 1200 x 630 JPG as og-image.jpg in the same folder as this file.
+  5. Resume: save your PDF as assets/Laila-Dela-Cruz-Resume.pdf
+-->
+<title>Laila Dela Cruz | Digital Marketing Manager</title>
+<meta name="description" content="Digital marketing manager for restaurants, coaches and wellness brands. Social media, video, email and ads, with results you can check.">
+<link rel="canonical" href="https://YOUR-DOMAIN.com/"><!-- DOMAIN -->
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Laila Dela Cruz">
+<meta name="theme-color" content="#F9E3E8">
+
+<!-- Link previews (LinkedIn, Facebook, Slack, WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Laila Dela Cruz">
+<meta property="og:title" content="Laila Dela Cruz | Digital Marketing Manager">
+<meta property="og:description" content="I run social media, video, email and ads for restaurants, coaches and wellness brands. See the results.">
+<meta property="og:url" content="https://YOUR-DOMAIN.com/"><!-- DOMAIN -->
+<meta property="og:image" content="https://YOUR-DOMAIN.com/og-image.jpg"><!-- DOMAIN -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Laila Dela Cruz | Digital Marketing Manager">
+<meta name="twitter:description" content="I run social media, video, email and ads for restaurants, coaches and wellness brands.">
+<meta name="twitter:image" content="https://YOUR-DOMAIN.com/og-image.jpg"><!-- DOMAIN -->
+
+<!-- Tells Google who you are -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Laila Dela Cruz",
+  "jobTitle": "Digital Marketing Manager",
+  "url": "https://YOUR-DOMAIN.com/",
+  "knowsAbout": ["Social media marketing", "Video editing", "Email marketing", "Meta Ads", "Content strategy"],
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Cavite State University"}
+}
+</script>
+
+<!--
+  IMAGES AND VIDEOS
+  Put files in the assets folder with these exact names. A slot stays hidden until its file loads,
+  and the layout closes up around it. Image names can end in .png, .jpg, .jpeg or .webp.
+    assets/portrait.png ................ hero photo (included)
+    assets/about.jpg ................... optional photo in the About section
+    assets/designs/<name>.png .......... graphic designs (names are in the Designs section below)
+    assets/videos/<name>.mp4 ........... videos (names are in the Videos section below)
+    assets/proof/<name>.png ............ cleaned Insights screenshots (names are in the Insights section)
+    assets/photos/<name>.jpg ........... photography (names are in the Photos section)
+    assets/clients/<name>.png .......... client logos: phosaigon, roar, temple, modmd, solace, ambos
+  Keep images under about 300 KB and videos under about 20 MB so the page loads fast.
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  /* Palette: black, white and light pink */
+  --plum:#111111;
+  --plum-deep:#111111;
+  --plum-night:#111111;
+  --plum-soft:#A3405B;
+  --lilac:#F9E3E8;
+  --lilac-2:#EFC6D1;
+  --cream:#FFFFFF;
+  --paper:#FFFFFF;
+  --ink:#111111;
+  --muted:#5E5659;
+  --peach:#F2A7B8;
+  --on-dark:#FFFFFF;
+  --on-dark-mute:#CFC8CA;
+
+  --sans:"Poppins","Helvetica Neue",Arial,sans-serif;
+  --serif:"Lora",Georgia,"Times New Roman",serif;
+
+  --wrap:1200px;
+  --pad:clamp(1.25rem,5vw,3.5rem);
+  --section:clamp(3.5rem,7vw,6rem);
+  --head:4.5rem;
+  --ease-out:cubic-bezier(.33,1,.68,1);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:calc(var(--head) + 1rem)}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:1rem;line-height:1.65;-webkit-font-smoothing:antialiased;padding-bottom:env(safe-area-inset-bottom,0px)}
+h1,h2,h3,h4{margin:0;font-family:var(--serif);font-weight:600;color:var(--plum);letter-spacing:-.01em;text-wrap:balance}
+p,ul,ol,dl,dd,figure{margin:0}
+ul,ol{padding:0;list-style:none}
+img,video{display:block;max-width:100%;height:auto}
+a{color:inherit}
+button{font:inherit;color:inherit}
+p,li,dd,dt,h1,h2,h3,h4{overflow-wrap:break-word}
+:focus-visible{outline:2px solid var(--plum-soft);outline-offset:3px;border-radius:3px}
+[hidden]{display:none!important}
+.num{font-variant-numeric:lining-nums tabular-nums}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:max(var(--pad),env(safe-area-inset-left,0px))}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:.75rem;top:-4rem;z-index:50;background:var(--plum);color:var(--cream);padding:.6rem 1rem;border-radius:4px;text-decoration:none;font-weight:600}
+.skip:focus{top:.75rem}
+
+.bg-lilac{background:var(--lilac)}
+.bg-plum{background:var(--plum)}
+.bg-night{background:var(--plum-night)}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:2.9rem;padding:.7rem 1.4rem;font-family:var(--sans);font-size:.9375rem;font-weight:600;line-height:1.2;text-decoration:none;border:2px solid var(--plum);border-radius:999px;background:var(--plum);color:var(--cream);transition:background-color .25s ease,color .25s ease,border-color .25s ease;cursor:pointer}
+.btn:hover{background:var(--peach);border-color:var(--peach);color:var(--plum-deep)}
+.btn--ghost{background:transparent;color:var(--plum)}
+.btn--ghost:hover{background:var(--plum);border-color:var(--plum);color:var(--cream)}
+
+/* Masthead */
+.masthead{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);-webkit-backdrop-filter:saturate(150%) blur(10px);backdrop-filter:saturate(150%) blur(10px);padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid rgba(17,17,17,.12)}
+.masthead__inner{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"mark cv" "nav nav";align-items:center;gap:.3rem 1rem;padding-block:.7rem}
+.wordmark{grid-area:mark;font-family:var(--serif);font-size:clamp(1.0625rem,.95rem + .6vw,1.3rem);font-weight:700;color:var(--plum);text-decoration:none;white-space:nowrap}
+.nav{grid-area:nav;display:flex;gap:1.25rem;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{flex:none;font-size:.875rem;font-weight:500;color:var(--muted);text-decoration:none;padding-block:.35rem;transition:color .2s ease}
+.nav a:hover{color:var(--plum)}
+.cv{grid-area:cv;min-height:2.4rem;padding:.45rem .9rem;font-size:.8125rem}
+@media (min-width:860px){
+  .masthead__inner{grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"mark nav cv";gap:2rem;padding-block:.9rem}
+  .nav{justify-content:flex-end;gap:1.75rem;overflow:visible}
+}
+
+/* Section shell */
+.section{padding-block:var(--section)}
+.section__head{max-width:46rem}
+.eyebrow{font-size:.8125rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--plum-soft)}
+.h2{margin-top:.6rem;font-size:clamp(1.9rem,1.25rem + 2.4vw,3.1rem);line-height:1.1}
+.lede{margin-top:1rem;max-width:60ch;font-size:clamp(1.0625rem,1rem + .3vw,1.1875rem);color:var(--muted)}
+.fine{margin-top:1.75rem;max-width:68ch;font-size:.8125rem;color:var(--muted)}
+
+/* Hero */
+.hero{position:relative;overflow:hidden}
+.hero__grid{display:grid;gap:clamp(2rem,5vw,3.5rem);align-items:center;padding-block:clamp(2.25rem,5vw,4rem) clamp(3rem,6vw,5rem)}
+@media (min-width:900px){.hero__grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}}
+.js .rise{animation:rise .9s var(--ease-out) var(--d,0s) both}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+.display{margin-top:1rem;font-family:var(--serif);font-weight:700;color:var(--plum);font-size:clamp(2.4rem,1.3rem + 4vw,4.4rem);line-height:1.05;letter-spacing:-.02em;text-wrap:balance}
+.hero__lede{margin-top:1.25rem;max-width:36rem;font-size:clamp(1.0625rem,1rem + .35vw,1.25rem);line-height:1.6;color:var(--ink)}
+.caption{margin-top:1.5rem;width:100%;max-width:30rem;display:flex;align-items:center;gap:.7rem;padding:.75rem 1.1rem;background:var(--paper);border:1.5px solid var(--plum);border-radius:1.2rem;color:var(--plum);font-size:.9375rem}
+.caption svg{flex:none;width:1.1rem;height:1.1rem}
+.caption__label{flex:none;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--plum-soft)}
+.caption__text{min-width:0}
+.caption__caret{flex:none;width:2px;height:1.15em;margin-left:-.4rem;background:var(--plum);animation:caret 1s steps(1) infinite}
+@keyframes caret{50%{opacity:0}}
+.hero__cta{margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:.75rem}
+
+.orbit{--dia:clamp(15rem,30vw,20rem);position:relative;justify-self:center;width:min(100%,26rem);height:calc(var(--dia) * 1.25 + 3rem)}
+.orbit__disc{position:absolute;left:50%;top:48%;width:calc(var(--dia) * 1.12);height:calc(var(--dia) * 1.12);border-radius:50%;background:var(--lilac);transform:translate(-44%,-50%)}
+.portrait{position:absolute;left:50%;top:48%;width:var(--dia);height:calc(var(--dia) * 1.25);margin:0;transform:translate(-50%,-50%);border-radius:999px 999px 0 0;overflow:hidden;background:var(--lilac-2);border:5px solid var(--paper);border-bottom:0}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 14%}
+.portrait__fallback{display:none;position:absolute;inset:0;align-items:center;justify-content:center;font-family:var(--serif);font-size:4rem;color:var(--plum);background:var(--lilac-2)}
+.portrait.is-broken img{display:none}
+.portrait.is-broken .portrait__fallback{display:flex}
+.namepill{position:absolute;left:50%;bottom:.35rem;transform:translateX(-50%);padding:.45rem 1.15rem;background:var(--plum);color:var(--cream);border-radius:999px;font-size:.875rem;font-weight:600;white-space:nowrap}
+.chip{position:absolute;display:inline-flex;align-items:center;gap:.5rem;padding:.4rem .95rem .4rem .45rem;background:var(--plum-deep);color:var(--cream);border-radius:999px;font-size:.8125rem;font-weight:600;white-space:nowrap;box-shadow:0 8px 20px rgba(0,0,0,.2);animation:bob 5.5s ease-in-out var(--dl,0s) infinite alternate}
+.chip svg{flex:none;width:1.6rem;height:1.6rem;padding:.34rem;border-radius:50%;background:var(--peach);color:var(--plum-deep)}
+@keyframes bob{from{transform:translateY(-5px)}to{transform:translateY(7px)}}
+.chip--a{left:0;top:14%}
+.chip--b{right:0;top:6%;--dl:-1.5s}
+.chip--c{right:0;bottom:24%;--dl:-3s}
+.chip--d{left:2%;bottom:16%;--dl:-4.5s}
+
+/* Results strip */
+.results{padding-block:clamp(2.75rem,5vw,4rem);color:var(--on-dark)}
+.results__list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem 1.5rem}
+@media (min-width:960px){.results__list{grid-template-columns:repeat(4,minmax(0,1fr));gap:2rem}}
+.results__list li{min-width:0;padding-top:1.1rem;background:linear-gradient(var(--peach),var(--peach)) left top/2.5rem 3px no-repeat}
+.results__num{display:block;font-family:var(--serif);font-weight:700;font-size:clamp(2.5rem,1.6rem + 3vw,3.9rem);line-height:1;color:var(--peach);letter-spacing:-.02em}
+.results__label{display:block;margin-top:.8rem;font-size:clamp(.9375rem,.9rem + .2vw,1.0625rem);font-weight:600;color:var(--cream);line-height:1.35}
+.results__note{display:block;margin-top:.3rem;font-size:.8125rem;color:var(--on-dark-mute);line-height:1.5}
+
+/* Case studies */
+.cases{margin-top:clamp(1rem,3vw,2rem)}
+.case{display:grid;gap:clamp(1.5rem,3vw,2rem);padding-block:clamp(2.25rem,4vw,3.25rem);border-bottom:1px solid rgba(17,17,17,.15)}
+.case:last-child{border-bottom:0;padding-bottom:0}
+@media (min-width:980px){
+  .case{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2.5rem,4.5vw,4rem);align-items:center}
+  .case:nth-child(even) .viz{order:-1}
+}
+.case__tag{font-size:.8125rem;font-weight:700;letter-spacing:.04em;color:var(--plum-soft)}
+.case h3{margin-top:.5rem;font-size:clamp(1.6rem,1.15rem + 1.6vw,2.4rem);line-height:1.12}
+.case__block{margin-top:1.4rem;max-width:58ch}
+.case__label{display:inline-block;padding:.2rem .8rem;border-radius:999px;background:var(--plum);color:var(--cream);font-size:.75rem;font-weight:700;letter-spacing:.04em;line-height:1.5}
+.case__label--result{background:var(--peach);color:var(--plum-deep)}
+.case__block p{margin-top:.55rem}
+.case__block p.case__label{margin-top:0}
+.case strong{font-weight:600;color:var(--ink)}
+.case__list{margin-top:.6rem;display:grid;gap:.55rem}
+.case__list li{position:relative;padding-left:1.35rem}
+.case__list li::before{content:"";position:absolute;left:0;top:.8em;width:.7rem;height:3px;border-radius:2px;background:var(--plum)}
+
+.viz{min-width:0;padding:clamp(1.25rem,3.2vw,2.25rem);background:var(--paper);border-radius:1.5rem;box-shadow:0 12px 32px rgba(0,0,0,.1)}
+.viz__title{font-size:.8125rem;font-weight:600;color:var(--plum)}
+.viz__note{margin-top:.9rem;font-size:.8125rem;line-height:1.5;color:var(--muted)}
+.viz__part+.viz__part{margin-top:clamp(1.5rem,3.5vw,2.25rem)}
+.bars{margin-top:.9rem;display:grid;gap:.75rem}
+.bar-row{display:grid;grid-template-columns:4.25rem minmax(0,1fr) 5.5rem;align-items:center;gap:.75rem}
+.bar-row__label{font-size:.8125rem;font-weight:600;color:var(--muted)}
+.bar{position:relative;height:1.75rem;background:rgba(17,17,17,.09);border-radius:999px;overflow:hidden}
+.bar__fill{position:absolute;left:0;top:0;bottom:0;width:max(3px,var(--w));background:var(--plum);border-radius:999px;transform-origin:left center;transition:transform 1.3s var(--ease-out) var(--d,0s)}
+.bar__fill--before{background:var(--lilac-2)}
+.bar-row__value{font-family:var(--serif);font-size:clamp(1rem,.95rem + .4vw,1.3rem);font-weight:600;color:var(--plum);text-align:right;white-space:nowrap;line-height:1}
+@media (max-width:479px){
+  .bar-row{grid-template-columns:minmax(0,1fr) auto;gap:.35rem .75rem}
+  .bar-row .bar{grid-column:1/-1;grid-row:2}
+}
+.js .bar__fill{transform:scaleX(0)}
+.js .viz.is-in .bar__fill{transform:scaleX(1)}
+.stats{margin-top:1rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem 1rem}
+.stats li{padding-top:.8rem;background:linear-gradient(var(--plum),var(--plum)) left top/2rem 3px no-repeat}
+.stats b{display:block;font-family:var(--serif);font-weight:700;font-size:clamp(1.9rem,1.5rem + 1.4vw,2.6rem);line-height:1;color:var(--plum)}
+.stats span{display:block;margin-top:.4rem;font-size:.8125rem;line-height:1.4;color:var(--muted)}
+.also{margin-top:2rem;padding:1.1rem 1.4rem;background:var(--lilac);border-radius:1rem;font-size:.9375rem;color:var(--ink)}
+.also b{font-weight:600;color:var(--plum)}
+
+/* Image and video slots */
+.shot{position:relative;overflow:hidden;background:var(--lilac-2)}
+.shot img{width:100%;height:100%;object-fit:cover}
+.proofs{margin-top:clamp(1.5rem,3vw,2.25rem);display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.proofs figure{border-radius:1rem;box-shadow:0 8px 24px rgba(0,0,0,.1);background:var(--paper)}
+.proofs img{width:100%;height:auto}
+.proofs figcaption{padding:.7rem 1rem;font-size:.8125rem;color:var(--muted)}
+.empty{margin-top:2rem;padding:1.5rem;border:1.5px dashed var(--lilac-2);border-radius:1rem;text-align:center;color:var(--muted);font-size:.9375rem}
+
+/* Designs */
+.filters{margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:.5rem}
+.filters button{min-height:2.5rem;padding:.4rem 1.05rem;border:1.5px solid var(--plum);border-radius:999px;background:transparent;color:var(--plum);font-size:.875rem;font-weight:600;cursor:pointer;transition:background-color .2s ease,color .2s ease}
+.filters button:hover{background:var(--lilac)}
+.filters button[aria-pressed="true"]{background:var(--plum);color:var(--cream)}
+.gallery{margin-top:1.75rem;columns:15rem 4;column-gap:1rem}
+.tile{display:inline-block;width:100%;margin:0 0 1rem;break-inside:avoid;background:var(--paper);border-radius:1rem;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.tile a{display:block}
+.tile img{width:100%;height:auto;transition:transform .5s var(--ease-out)}
+.tile a:hover img{transform:scale(1.03)}
+.tile a{overflow:hidden}
+.tile figcaption{padding:.7rem 1rem .85rem;font-size:.8125rem;line-height:1.45;color:var(--muted)}
+.tile figcaption b{display:block;font-weight:600;color:var(--plum)}
+.gallery[data-show="phosaigon"] .tile:not([data-client="phosaigon"]),
+.gallery[data-show="temple"] .tile:not([data-client="temple"]),
+.gallery[data-show="modmd"] .tile:not([data-client="modmd"]),
+.gallery[data-show="roar"] .tile:not([data-client="roar"]),
+.gallery[data-show="other"] .tile:not([data-client="other"]){display:none}
+
+
+/* Clients */
+.clients{margin-top:clamp(1.75rem,3vw,2.5rem);display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.client{display:flex;flex-direction:column;align-items:center;text-align:center;padding:1.75rem 1.4rem 1.5rem;background:var(--paper);border-radius:1.5rem;box-shadow:0 12px 32px rgba(0,0,0,.08);transition:transform .3s var(--ease-out),box-shadow .3s ease}
+.client:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(0,0,0,.12)}
+.logo{position:relative;flex:none;width:5.5rem;height:5.5rem;border-radius:50%;overflow:hidden;background:var(--lilac);border:2px solid var(--plum);display:grid;place-items:center}
+.logo b{font-family:var(--serif);font-weight:600;font-size:1.7rem;color:var(--plum)}
+.logo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:var(--paper)}
+.client h3{margin-top:1rem;font-size:1.3rem;line-height:1.2}
+.client__role{margin-top:.25rem;font-size:.8125rem;font-weight:600;color:var(--plum-soft)}
+.client__what{margin-top:.7rem;font-size:.9rem;color:var(--muted);flex:1}
+.client__links{margin-top:1.1rem;display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem}
+.client__links a{display:inline-flex;align-items:center;min-height:2.3rem;padding:.35rem 1rem;font-size:.8125rem;font-weight:600;text-decoration:none;color:var(--cream);background:var(--plum);border:2px solid var(--plum);border-radius:999px;transition:background-color .2s ease,color .2s ease,border-color .2s ease}
+.client__links a:hover{background:var(--peach);border-color:var(--peach);color:var(--plum-deep)}
+.client__previews{margin-top:.6rem;display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem}
+.client__previews button{min-height:2.3rem;padding:.35rem 1rem;font-size:.8125rem;font-weight:600;color:var(--plum);background:transparent;border:2px solid var(--plum);border-radius:999px;cursor:pointer;transition:background-color .2s ease,color .2s ease}
+.client__previews button:hover,.client__previews button[aria-expanded="true"]{background:var(--plum);color:var(--cream)}
+.client__embed{width:100%;margin-top:1rem}
+.client__embed iframe{display:block;width:100%;height:30rem;border:1px solid rgba(17,17,17,.12);border-radius:1rem;background:var(--paper)}
+.client__embed p{margin-top:.5rem;font-size:.75rem;color:var(--muted)}
+.client__none{font-size:.8125rem;color:var(--muted);font-style:italic}
+
+/* Insights cards */
+.insights{margin-top:clamp(1.75rem,3vw,2.5rem);display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr))}
+.insights .viz{display:flex;flex-direction:column}
+.insights .viz__title{font-size:.9375rem;font-weight:700;color:var(--plum)}
+.viz__period{margin-top:.15rem;font-size:.75rem;color:var(--muted)}
+.insights .stats{margin-top:1.1rem}
+.insights .stats b{font-size:clamp(1.7rem,1.4rem + 1vw,2.2rem)}
+.insights .viz__note{margin-top:auto;padding-top:1rem}
+.charts{margin-top:clamp(1.75rem,3vw,2.5rem);display:grid;gap:1.25rem}
+@media (min-width:900px){.charts{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}}
+.charts+.insights{margin-top:1.25rem}
+.gbars{margin-top:1.1rem;display:grid;gap:.9rem}
+.gbar{display:grid;grid-template-columns:9rem minmax(0,1fr) 3.6rem;align-items:center;gap:.75rem}
+.gbar__label{font-size:.8125rem;font-weight:600;line-height:1.25;color:var(--ink)}
+.gbar__label small{display:block;font-weight:400;font-size:.6875rem;color:var(--muted)}
+.gbar__value{font-family:var(--serif);font-weight:600;font-size:1.05rem;color:var(--plum);text-align:right;white-space:nowrap}
+@media (max-width:520px){.gbar{grid-template-columns:minmax(0,1fr) auto}.gbar .bar{grid-column:1/-1;grid-row:2}}
+.donut{display:grid;grid-template-columns:minmax(0,9rem) minmax(0,1fr);align-items:center;gap:1.25rem;margin-top:1.1rem}
+.donut svg{width:100%;height:auto;transform:rotate(-90deg)}
+.donut circle{fill:none;stroke-width:6.5}
+.donut .seg{transition:stroke-dasharray 1.3s var(--ease-out)}
+.js .donut .seg{stroke-dasharray:0 100}
+.js .viz.is-in .donut .seg{stroke-dasharray:var(--len) calc(100 - var(--len))}
+.legend{display:grid;gap:.7rem;font-size:.875rem}
+.legend li{display:flex;align-items:center;gap:.55rem}
+.legend i{flex:none;width:.85rem;height:.85rem;border-radius:3px}
+.legend b{margin-left:auto;font-family:var(--serif);font-weight:600;color:var(--plum)}
+.proofs__title{margin-top:clamp(2rem,4vw,3rem);font-family:var(--serif);font-size:1.5rem;color:var(--plum)}
+.photos{margin-top:1.75rem;columns:14rem 4;column-gap:1rem}
+.photos .tile{display:inline-block}
+.reveal-note{display:none}
+
+/* Videos */
+.reel{margin-top:2rem;overflow:hidden;max-width:56rem;margin-inline:auto;border-radius:1.25rem;background:var(--plum-night)}
+.reel video{width:100%;max-height:78vh;background:#000}
+.reel figcaption{padding:.8rem 1.1rem;font-size:.8125rem;color:var(--on-dark-mute)}
+.reel figcaption b{color:var(--cream);font-weight:600}
+.clips{margin-top:1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(13.5rem,1fr));gap:1.25rem}
+.clip{border-radius:1.1rem;overflow:hidden;background:var(--paper);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.clip video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#000}
+.clip figcaption{padding:.75rem 1rem .9rem;font-size:.8125rem;line-height:1.45;color:var(--muted)}
+.clip figcaption b{display:block;font-weight:600;color:var(--plum)}
+
+/* Method */
+.pipe{--gap:2rem;margin-top:clamp(2rem,4vw,3rem);display:grid;gap:var(--gap);max-width:44rem}
+.pipe li{position:relative;min-width:0;padding-left:2.75rem}
+.pipe__node{position:absolute;left:0;top:.35rem;width:1.35rem;height:1.35rem;border-radius:50%;background:var(--cream);border:2px solid var(--plum);transition:background-color .3s ease,box-shadow .3s ease}
+.pipe li.is-on .pipe__node{background:var(--plum);box-shadow:0 0 0 4px var(--peach)}
+.pipe li:not(:last-child)::before,.pipe li:not(:last-child)::after{content:"";position:absolute;left:calc(.675rem - 1px);top:1.7rem;width:2px;height:calc(100% + var(--gap) - 1.35rem)}
+.pipe li:not(:last-child)::before{background:rgba(17,17,17,.2)}
+.pipe li:not(:last-child)::after{background:var(--plum);transform:scaleY(0);transform-origin:top;transition:transform .8s var(--ease-out) .2s}
+.pipe li.is-on:not(:last-child)::after{transform:scaleY(1)}
+.pipe h3{font-size:clamp(1.45rem,1.15rem + 1vw,1.8rem);line-height:1.1}
+.pipe__what{margin-top:.25rem;font-size:.8125rem;font-weight:600;color:var(--plum-soft)}
+.pipe__desc{margin-top:.55rem;font-size:.9375rem;color:var(--ink)}
+@media (min-width:1000px){
+  .pipe{grid-template-columns:repeat(5,minmax(0,1fr));max-width:none}
+  .pipe li{padding-left:0;padding-top:2.5rem}
+  .pipe__node{top:0}
+  .pipe li:not(:last-child)::before,.pipe li:not(:last-child)::after{left:1.35rem;top:calc(.675rem - 1px);width:calc(100% + var(--gap) - 1.35rem);height:2px}
+  .pipe li:not(:last-child)::after{transform:scaleX(0);transform-origin:left}
+  .pipe li.is-on:not(:last-child)::after{transform:scaleX(1)}
+}
+
+/* About */
+.about{display:grid;gap:clamp(2rem,4vw,3.25rem)}
+@media (min-width:960px){.about{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:start}}
+.about__text p+p{margin-top:1.1rem}
+.about__text .lede{margin-bottom:1.1rem}
+.about__body{max-width:62ch}
+.about__aside{display:grid;gap:1.5rem;min-width:0}
+.shot--about{aspect-ratio:4/5;border-radius:1.5rem}
+@media (min-width:600px) and (max-width:959px){.shot--about{aspect-ratio:16/10}}
+.now{padding:clamp(1.25rem,3vw,1.75rem);background:var(--plum);color:var(--on-dark);border-radius:1.5rem}
+.now__tag{font-size:.8125rem;font-weight:600;color:var(--peach)}
+.now h3{margin-top:.35rem;font-size:1.4rem;color:var(--cream)}
+.now p{margin-top:.6rem;font-size:.9375rem;color:var(--on-dark)}
+.tools{padding:clamp(1.25rem,3vw,1.75rem);background:var(--paper);border-radius:1.5rem}
+.tools h3{font-size:1.4rem}
+.tools dl{margin-top:1rem;display:grid;gap:.9rem}
+.tools dt{font-size:.8125rem;font-weight:600;color:var(--plum-soft)}
+.tools dd{margin-top:.1rem;font-size:.9375rem;color:var(--ink)}
+
+/* Contact */
+.contact{color:var(--on-dark)}
+.contact__title{font-family:var(--serif);font-weight:700;font-size:clamp(2.2rem,1.3rem + 3.6vw,4rem);line-height:1.06;letter-spacing:-.015em;color:var(--cream);max-width:18ch}
+.contact__lede{margin-top:1.5rem;max-width:56ch;font-size:clamp(1.0625rem,1rem + .3vw,1.1875rem);color:var(--on-dark)}
+.channels{margin-top:clamp(2rem,4vw,2.75rem);display:grid;gap:1.75rem}
+@media (min-width:700px){.channels{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;max-width:44rem}}
+.channels h3{font-family:var(--sans);font-size:.8125rem;font-weight:600;color:var(--on-dark-mute)}
+.channels a{display:inline-block;margin-top:.35rem;font-size:clamp(1.0625rem,1rem + .35vw,1.25rem);font-weight:600;color:var(--peach);text-decoration:none;background:linear-gradient(var(--peach),var(--peach)) left bottom/0 2px no-repeat;padding-bottom:3px;word-break:break-word;transition:background-size .35s var(--ease-out)}
+.channels a:hover,.channels a:focus-visible{background-size:100% 2px}
+.channels p{margin-top:.4rem;font-size:.875rem;color:var(--on-dark-mute)}
+.contact__where{margin-top:clamp(2rem,4vw,2.75rem);font-size:.9375rem;color:var(--on-dark-mute)}
+
+.footer{padding-block:1.5rem calc(1.5rem + env(safe-area-inset-bottom,0px));background:#000000;color:var(--on-dark-mute);font-size:.8125rem}
+.footer .wrap{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;justify-content:space-between}
+.footer a{color:var(--on-dark)}
+
+/* Reveal motion, applied only when JS runs */
+.js [data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .7s ease var(--d,0s),transform .8s var(--ease-out) var(--d,0s)}
+.js [data-reveal].is-in{opacity:1;transform:none}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important}
+  .js [data-reveal],.js .bar__fill,.pipe li::after{transition:none!important}
+  .js [data-reveal]{opacity:1;transform:none}
+  .js .bar__fill{transform:scaleX(1)}
+  .js .donut .seg{stroke-dasharray:var(--len) calc(100 - var(--len))}
+  .caption__caret{display:none}
+}
+</style>
+</head>
+
+<body>
+<script>document.documentElement.classList.add('js');</script>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead" id="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="#top">Laila Dela Cruz</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#insights">Insights</a>
+      <a href="#clients">Clients</a>
+      <a href="#designs">Designs</a>
+      <a href="#photos">Photos</a>
+      <a href="#videos">Videos</a>
+      <a href="#method">How I work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn cv" href="assets/Laila-Dela-Cruz-Resume.pdf" target="_blank" rel="noopener">View resume</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <h1 class="sr-only" id="hero-title">Laila Dela Cruz, digital marketing manager who runs social media, video, email and ads for restaurants, coaches and wellness brands</h1>
+    <div class="wrap hero__grid">
+      <div>
+        <p class="eyebrow rise">Digital marketing manager</p>
+        <p class="display rise" style="--d:.08s">I run social media that gets brands seen.</p>
+        <p class="hero__lede rise" style="--d:.16s">I plan, shoot, edit and post the content, then show you the numbers. One restaurant account I run reached 2.2M people on Facebook in a year.</p>
+        <div class="caption rise" style="--d:.24s" role="img" aria-label="A caption being written: 3 reasons your Reels get views but no customers">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1-4L16 5l3 3L8 19z"/></svg>
+          <span class="caption__label">Caption</span>
+          <span class="caption__text" data-type>3 reasons your Reels get views but no customers</span>
+          <span class="caption__caret" aria-hidden="true"></span>
+        </div>
+        <div class="hero__cta rise" style="--d:.32s">
+          <a class="btn" href="#work">See the results</a>
+          <a class="btn btn--ghost" href="mailto:lailadcworks@gmail.com">Email me</a>
+        </div>
+      </div>
+
+      <div class="orbit rise" style="--d:.2s">
+        <span class="orbit__disc" aria-hidden="true"></span>
+        <figure class="portrait" id="portrait">
+          <img src="assets/portrait.png" width="410" height="615" alt="Portrait of Laila Dela Cruz" decoding="async" onerror="document.getElementById('portrait').classList.add('is-broken')">
+          <div class="portrait__fallback" aria-hidden="true">LD</div>
+        </figure>
+        <span class="namepill">Laila Dela Cruz</span>
+        <span class="chip chip--a" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>Social media</span>
+        <span class="chip chip--b" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg>Video</span>
+        <span class="chip chip--c" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M4 15l5-5 4 4 3-3 4 4"/></svg>Design</span>
+        <span class="chip chip--d" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20v-8M12 20V5M19 20v-5"/></svg>Analytics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results strip -->
+  <section class="results bg-plum" aria-label="Results at a glance">
+    <div class="wrap">
+      <ul class="results__list" data-trigger>
+        <li>
+          <b class="results__num num" data-count="11.9" data-decimals="1" data-suffix="M">11.9M</b>
+          <span class="results__label">Views for one restaurant</span>
+          <span class="results__note">Pho Saigon, Facebook and Instagram, Sep 2025 to Oct 2026. Paid and organic.</span>
+        </li>
+        <li>
+          <b class="results__num num" data-count="2.2" data-decimals="1" data-suffix="M" data-delay="120">2.2M</b>
+          <span class="results__label">People reached on Facebook</span>
+          <span class="results__note">Same restaurant, same 12 months</span>
+        </li>
+        <li>
+          <b class="results__num num" data-count="66" data-prefix="+" data-suffix="%" data-delay="240">+66%</b>
+          <span class="results__label">Instagram follower growth</span>
+          <span class="results__note">Pho Saigon, 1,229 to 2,039 followers</span>
+        </li>
+        <li>
+          <b class="results__num num" data-count="245.9" data-decimals="1" data-suffix="K" data-delay="360">245.9K</b>
+          <span class="results__label">Instagram views in 90 days</span>
+          <span class="results__note">Roar Coaching, Jul 6 to Oct 4, 2026</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="section" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow" data-reveal>Results</p>
+        <h2 class="h2" id="work-title" data-reveal style="--d:.05s">Six brands, one way of working</h2>
+        <p class="lede" data-reveal style="--d:.12s">What I handled for each brand, and what moved. Numbers come from the platforms themselves.</p>
+      </header>
+
+      <div class="cases">
+
+        <article class="case">
+          <div data-reveal>
+            <p class="case__tag">Vietnamese restaurant. Digital Marketing Officer. Aug 2025 to now.</p>
+            <h3>Pho Saigon: more followers and millions of views</h3>
+            <div class="case__block">
+              <p class="case__label">The job</p>
+              <p>Handle marketing for the restaurant from start to finish, across Facebook, Instagram, TikTok, the website and email.</p>
+            </div>
+            <div class="case__block">
+              <p class="case__label">What I did</p>
+              <ul class="case__list">
+                <li><strong>Planned</strong> campaigns and seasonal promotions with management, then carried them through to launch</li>
+                <li><strong>Shot and edited</strong> the photos and videos, and designed the graphics</li>
+                <li><strong>Reached out to KOLs and vloggers</strong> to build partnerships and collaborations</li>
+                <li><strong>Tracked</strong> reach, engagement and leads to see what to improve</li>
+              </ul>
+            </div>
+            <div class="case__block">
+              <p class="case__label case__label--result">The result</p>
+              <p>Instagram followers <strong>up 66 percent</strong> and Facebook followers <strong>up 30 percent</strong>. Across both, the pages earned <strong>11.9M views</strong> in 12 months.</p>
+            </div>
+          </div>
+
+          <div class="viz" data-trigger>
+            <div class="viz__part">
+              <p class="viz__title">Instagram followers</p>
+              <div class="bars">
+                <div class="bar-row"><span class="bar-row__label">Before</span><span class="bar"><span class="bar__fill bar__fill--before" style="--w:60.3%"></span></span><span class="bar-row__value num">1,229</span></div>
+                <div class="bar-row"><span class="bar-row__label">Now</span><span class="bar"><span class="bar__fill" style="--w:100%;--d:.15s"></span></span><span class="bar-row__value num" data-count="2039" data-delay="150">2,039</span></div>
+              </div>
+            </div>
+            <div class="viz__part">
+              <p class="viz__title">Facebook followers</p>
+              <div class="bars">
+                <div class="bar-row"><span class="bar-row__label">Before</span><span class="bar"><span class="bar__fill bar__fill--before" style="--w:76.9%"></span></span><span class="bar-row__value num">10K</span></div>
+                <div class="bar-row"><span class="bar-row__label">Now</span><span class="bar"><span class="bar__fill" style="--w:100%;--d:.15s"></span></span><span class="bar-row__value num">13K</span></div>
+              </div>
+              <p class="viz__note">Views include paid and organic. About 85 percent came from ads.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div data-reveal>
+            <p class="case__tag">Food brand. Marketing Assistant. 2024 to 2025.</p>
+            <h3>AMBOS Panaderia + Cocina: 6.8M reach in six months</h3>
+            <div class="case__block">
+              <p class="case__label">The job</p>
+              <p>Run the brand's social media and grow its audience.</p>
+            </div>
+            <div class="case__block">
+              <p class="case__label">What I did</p>
+              <ul class="case__list">
+                <li><strong>Created</strong> photos, videos, reels, stories and text posts</li>
+                <li><strong>Ran targeted campaigns</strong> that widened the audience</li>
+                <li><strong>Tested content formats</strong> and kept the ones people stayed for</li>
+                <li><strong>Built a TikTok presence</strong> with videos that took off</li>
+              </ul>
+            </div>
+            <div class="case__block">
+              <p class="case__label case__label--result">The result</p>
+              <p>The brand's following grew by <strong>over 2 million</strong> in six months, and brand awareness rose <strong>29.5 percent</strong>.</p>
+            </div>
+          </div>
+
+          <div class="viz" data-trigger>
+            <p class="viz__title">In six months</p>
+            <ul class="stats">
+              <li><b class="num" data-count="6.8" data-decimals="1" data-suffix="M">6.8M</b><span>Total reach</span></li>
+              <li><b class="num" data-count="1.3" data-decimals="1" data-suffix="M" data-delay="120">1.3M</b><span>Audience reached by campaigns</span></li>
+              <li><b class="num" data-count="135.8" data-decimals="1" data-suffix="K" data-delay="240">135.8K</b><span>Content interactions</span></li>
+              <li><b class="num" data-count="21.8" data-decimals="1" data-suffix="K" data-delay="360">21.8K</b><span>Website clicks</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="case">
+          <div data-reveal>
+            <p class="case__tag">Coaching business. Direct client. Social media manager and video editor.</p>
+            <h3>Roar Coaching: 245.9K views in 90 days</h3>
+            <div class="case__block">
+              <p class="case__label">The job</p>
+              <p>Manage the brand's social channels and edit its videos.</p>
+            </div>
+            <div class="case__block">
+              <p class="case__label">What I did</p>
+              <ul class="case__list">
+                <li><strong>Edited</strong> video content for the social channels</li>
+                <li><strong>Managed</strong> the channels day to day</li>
+              </ul>
+            </div>
+            <div class="case__block">
+              <p class="case__label case__label--result">The result</p>
+              <p>On Instagram, <strong>77.6K people</strong> watched and the profile had <strong>16.3K visits</strong> in 90 days. <strong>Reels brought in 101K</strong> of the views.</p>
+            </div>
+          </div>
+
+          <div class="viz" data-trigger>
+            <p class="viz__title">Instagram views, Jul 6 to Oct 4, 2026</p>
+            <div class="bars">
+              <div class="bar-row"><span class="bar-row__label">All</span><span class="bar"><span class="bar__fill" style="--w:100%"></span></span><span class="bar-row__value num">245.9K</span></div>
+              <div class="bar-row"><span class="bar-row__label">Reels</span><span class="bar"><span class="bar__fill" style="--w:41.1%;--d:.15s"></span></span><span class="bar-row__value num">101K</span></div>
+              <div class="bar-row"><span class="bar-row__label">Stories</span><span class="bar"><span class="bar__fill bar__fill--before" style="--w:14.2%;--d:.3s"></span></span><span class="bar-row__value num">35K</span></div>
+            </div>
+            <p class="viz__note">Source: Instagram Insights, last 90 days.</p>
+          </div>
+        </article>
+
+        <article class="case">
+          <div data-reveal>
+            <p class="case__tag">Holistic health brand. Through Semicolon Connects.</p>
+            <h3>Temple Somatics: courses, content and a bigger audience</h3>
+            <div class="case__block">
+              <p class="case__label">The job</p>
+              <p>Run the online courses and the brand's social media and email.</p>
+            </div>
+            <div class="case__block">
+              <p class="case__label">What I did</p>
+              <ul class="case__list">
+                <li><strong>Managed the courses</strong> in Go High Level</li>
+                <li><strong>Handled social media</strong> from graphic design and video editing to posting</li>
+                <li><strong>Ran email marketing</strong> for the brand</li>
+              </ul>
+            </div>
+            <div class="case__block">
+              <p class="case__label case__label--result">The result</p>
+              <p>Facebook followers <strong>up 34 percent</strong>, and the founder's Instagram grew from about 3,000 to <strong>4,055 followers</strong>.</p>
+            </div>
+          </div>
+
+          <div class="viz" data-trigger>
+            <div class="viz__part">
+              <p class="viz__title">Facebook followers</p>
+              <div class="bars">
+                <div class="bar-row"><span class="bar-row__label">Before</span><span class="bar"><span class="bar__fill bar__fill--before" style="--w:74.5%"></span></span><span class="bar-row__value num">2,500</span></div>
+                <div class="bar-row"><span class="bar-row__label">Now</span><span class="bar"><span class="bar__fill" style="--w:100%;--d:.15s"></span></span><span class="bar-row__value num">3,354</span></div>
+              </div>
+            </div>
+            <div class="viz__part">
+              <p class="viz__title">Founder's Instagram followers</p>
+              <div class="bars">
+                <div class="bar-row"><span class="bar-row__label">Before</span><span class="bar"><span class="bar__fill bar__fill--before" style="--w:74%"></span></span><span class="bar-row__value num">~3,000</span></div>
+                <div class="bar-row"><span class="bar-row__label">Now</span><span class="bar"><span class="bar__fill" style="--w:100%;--d:.15s"></span></span><span class="bar-row__value num">4,055</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div data-reveal>
+            <p class="case__tag">Med spa. Through Semicolon Connects.</p>
+            <h3>modMD: a feed that doubled in size</h3>
+            <div class="case__block">
+              <p class="case__label">The job</p>
+              <p>Focus on social media management, editing content and posting.</p>
+            </div>
+            <div class="case__block">
+              <p class="case__label">What I did</p>
+              <ul class="case__list">
+                <li><strong>Edited</strong> the content before it went live</li>
+                <li><strong>Posted</strong> on a steady schedule</li>
+              </ul>
+            </div>
+            <div class="case__block">
+              <p class="case__label case__label--result">The result</p>
+              <p>The Instagram feed grew from <strong>67 to 130 posts</strong>, and followers rose from 1,067 to <strong>1,179</strong>.</p>
+            </div>
+          </div>
+
+          <div class="viz" data-trigger>
+            <div class="viz__part">
+              <p class="viz__title">Instagram posts</p>
+              <div class="bars">
+                <div class="bar-row"><span class="bar-row__label">Before</span><span class="bar"><span class="bar__fill bar__fill--before" style="--w:51.5%"></span></span><span class="bar-row__value num">67</span></div>
+                <div class="bar-row"><span class="bar-row__label">Now</span><span class="bar"><span class="bar__fill" style="--w:100%;--d:.15s"></span></span><span class="bar-row__value num">130</span></div>
+              </div>
+            </div>
+            <div class="viz__part">
+              <p class="viz__title">Instagram followers</p>
+              <div class="bars">
+                <div class="bar-row"><span class="bar-row__label">Before</span><span class="bar"><span class="bar__fill bar__fill--before" style="--w:90.5%"></span></span><span class="bar-row__value num">1,067</span></div>
+                <div class="bar-row"><span class="bar-row__label">Now</span><span class="bar"><span class="bar__fill" style="--w:100%;--d:.15s"></span></span><span class="bar-row__value num">1,179</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="also" data-reveal><b>Also managing:</b> Sacred Solace, with course management in Go High Level, social media and email marketing.</p>
+      <p class="fine" data-reveal>Numbers come from Meta Insights, Instagram Insights and public follower counts. Pho Saigon views are paid and organic combined.</p>
+
+    </div>
+  </section>
+
+  <!-- Insights -->
+  <section class="section bg-lilac" id="insights" aria-labelledby="insights-title">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow" data-reveal>Insights and metrics</p>
+        <h2 class="h2" id="insights-title" data-reveal style="--d:.05s">The numbers, brand by brand</h2>
+        <p class="lede" data-reveal style="--d:.12s">Straight from each platform's own dashboard. Every brand started from a different size, so read each card on its own.</p>
+      </header>
+      <div class="charts">
+        <div class="viz" data-trigger>
+          <p class="viz__title">Follower growth since I started</p>
+          <p class="viz__period">Share of where each account began</p>
+          <div class="gbars">
+            <div class="gbar"><span class="gbar__label">Pho Saigon, Instagram<small>1,229 to 2,039</small></span><span class="bar"><span class="bar__fill" style="--w:100%"></span></span><span class="gbar__value num" data-count="66" data-prefix="+" data-suffix="%">+66%</span></div>
+            <div class="gbar"><span class="gbar__label">Temple founder, Instagram<small>about 3,000 to 4,055</small></span><span class="bar"><span class="bar__fill" style="--w:53%;--d:.1s"></span></span><span class="gbar__value num" data-count="35" data-prefix="~+" data-suffix="%" data-delay="100">~+35%</span></div>
+            <div class="gbar"><span class="gbar__label">Temple Somatics, Facebook<small>2,500 to 3,354</small></span><span class="bar"><span class="bar__fill" style="--w:51.5%;--d:.2s"></span></span><span class="gbar__value num" data-count="34" data-prefix="+" data-suffix="%" data-delay="200">+34%</span></div>
+            <div class="gbar"><span class="gbar__label">Pho Saigon, Facebook<small>10K to 13K</small></span><span class="bar"><span class="bar__fill" style="--w:45.5%;--d:.3s"></span></span><span class="gbar__value num" data-count="30" data-prefix="+" data-suffix="%" data-delay="300">+30%</span></div>
+            <div class="gbar"><span class="gbar__label">modMD, Instagram<small>1,067 to 1,179</small></span><span class="bar"><span class="bar__fill" style="--w:16%;--d:.4s"></span></span><span class="gbar__value num" data-count="10" data-prefix="+" data-suffix="%" data-delay="400">+10%</span></div>
+          </div>
+        </div>
+        <div class="viz" data-trigger>
+          <p class="viz__title">Roar Coaching: where the views came from</p>
+          <p class="viz__period">Instagram, Jul 6 to Oct 4, 2026</p>
+          <div class="donut">
+            <svg viewBox="0 0 42 42" role="img" aria-label="Donut chart of 245.9K views: Reels 101K, Stories 35K, other 109.9K">
+              <circle cx="21" cy="21" r="15.9155" stroke="rgba(17,17,17,.07)"/>
+              <circle class="seg" cx="21" cy="21" r="15.9155" stroke="#111111" pathLength="100" style="--len:41.1"/>
+              <circle class="seg" cx="21" cy="21" r="15.9155" stroke="#F2A7B8" pathLength="100" style="--len:14.2" stroke-dashoffset="-41.1"/>
+              <circle class="seg" cx="21" cy="21" r="15.9155" stroke="#F3D3DB" pathLength="100" style="--len:44.7" stroke-dashoffset="-55.3"/>
+            </svg>
+            <ul class="legend">
+              <li><i style="background:#111111"></i>Reels<b class="num" data-count="101" data-suffix="K">101K</b></li>
+              <li><i style="background:#F2A7B8"></i>Stories<b class="num" data-count="35" data-suffix="K" data-delay="100">35K</b></li>
+              <li><i style="background:#F3D3DB;border:1px solid #d8a9b5"></i>Other<b class="num" data-count="109.9" data-decimals="1" data-suffix="K" data-delay="200">109.9K</b></li>
+            </ul>
+          </div>
+          <p class="viz__note">Source: Instagram Insights.</p>
+        </div>
+      </div>
+      
+      <div class="insights">
+        <div class="viz" data-trigger>
+          <p class="viz__title">Pho Saigon</p>
+          <p class="viz__period">Facebook and Instagram, 12 months</p>
+          <ul class="stats"><li><b class="num" data-count="11.9" data-decimals="1" data-suffix="M">11.9M</b><span>Total views</span></li><li><b class="num" data-count="2.2" data-decimals="1" data-suffix="M">2.2M</b><span>People reached on Facebook</span></li><li><b class="num" data-count="66" data-prefix="+" data-suffix="%">+66%</b><span>Instagram followers</span></li><li><b class="num" data-count="30" data-prefix="+" data-suffix="%">+30%</b><span>Facebook followers</span></li></ul>
+          <p class="viz__note">Views are paid and organic combined. About 85 percent came from ads.</p>
+        </div>
+        <div class="viz" data-trigger>
+          <p class="viz__title">Roar Coaching</p>
+          <p class="viz__period">Instagram, Jul 6 to Oct 4, 2026</p>
+          <ul class="stats"><li><b class="num" data-count="245.9" data-decimals="1" data-suffix="K">245.9K</b><span>Views</span></li><li><b class="num" data-count="77.6" data-decimals="1" data-suffix="K">77.6K</b><span>People who watched</span></li><li><b class="num" data-count="101" data-suffix="K">101K</b><span>Views from Reels</span></li><li><b class="num" data-count="16.3" data-decimals="1" data-suffix="K">16.3K</b><span>Profile visits</span></li></ul>
+          <p class="viz__note">Source: Instagram Insights.</p>
+        </div>
+        <div class="viz" data-trigger>
+          <p class="viz__title">AMBOS Panaderia + Cocina</p>
+          <p class="viz__period">Six months</p>
+          <ul class="stats"><li><b class="num" data-count="6.8" data-decimals="1" data-suffix="M">6.8M</b><span>Total reach</span></li><li><b class="num" data-count="1.3" data-decimals="1" data-suffix="M">1.3M</b><span>Reached by campaigns</span></li><li><b class="num" data-count="135.8" data-decimals="1" data-suffix="K">135.8K</b><span>Content interactions</span></li><li><b class="num" data-count="21.8" data-decimals="1" data-suffix="K">21.8K</b><span>Website clicks</span></li></ul>
+          <p class="viz__note">Brand awareness rose 29.5 percent.</p>
+        </div>
+        <div class="viz" data-trigger>
+          <p class="viz__title">Temple Somatics</p>
+          <p class="viz__period">Since I started</p>
+          <ul class="stats"><li><b class="num" data-count="34" data-prefix="+" data-suffix="%">+34%</b><span>Facebook followers</span></li><li><b class="num" data-count="4055">4,055</b><span>Founder Instagram followers</span></li></ul>
+          <p class="viz__note">Facebook grew from 2,500 to 3,354.</p>
+        </div>
+        <div class="viz" data-trigger>
+          <p class="viz__title">modMD</p>
+          <p class="viz__period">Since I started</p>
+          <ul class="stats"><li><b class="num" data-count="130" data-from="67" data-duration="1400">130</b><span>Instagram posts, up from 67</span></li><li><b class="num" data-count="10" data-prefix="+" data-suffix="%">+10%</b><span>Instagram followers</span></li></ul>
+          <p class="viz__note">Followers grew from 1,067 to 1,179.</p>
+        </div>
+      </div>
+      <h3 class="proofs__title" data-reveal>Screenshots from the dashboards</h3>
+      <!-- Save cleaned screenshots in assets/proof/ with these names -->
+      <div data-group>
+        <div class="proofs">
+          <figure class="shot" data-base="assets/proof/phosaigon-facebook-12-months" hidden><a target="_blank" rel="noopener"><img alt="Meta Insights for Pho Saigon's Facebook page over 12 months" decoding="async"></a><figcaption>Pho Saigon, Facebook, 12 months</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/phosaigon-instagram-12-months" hidden><a target="_blank" rel="noopener"><img alt="Instagram Insights for Pho Saigon over 12 months" decoding="async"></a><figcaption>Pho Saigon, Instagram, 12 months</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/roar-instagram-90-days" hidden><a target="_blank" rel="noopener"><img alt="Instagram Insights for Roar Coaching over 90 days" decoding="async"></a><figcaption>Roar Coaching, Instagram, 90 days</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/temple-facebook" hidden><a target="_blank" rel="noopener"><img alt="Facebook Insights for Temple Somatics" decoding="async"></a><figcaption>Temple Somatics, Facebook</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/modmd-instagram" hidden><a target="_blank" rel="noopener"><img alt="Instagram Insights for modMD" decoding="async"></a><figcaption>modMD, Instagram</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/ambos-insights" hidden><a target="_blank" rel="noopener"><img alt="Insights for AMBOS Panaderia + Cocina" decoding="async"></a><figcaption>AMBOS, six months</figcaption></figure>
+        </div>
+        <p class="empty" data-empty hidden>Dashboard screenshots are being added.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section class="section" id="clients" aria-labelledby="clients-title">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow" data-reveal>Clients</p>
+        <h2 class="h2" id="clients-title" data-reveal style="--d:.05s">Brands I work with</h2>
+        <p class="lede" data-reveal style="--d:.12s">Preview each client's page right here, or tap a button to visit it.</p>
+      </header>
+      <!--
+        CLIENT LINKS: replace each REPLACE-... address with the real page. Links still containing REPLACE are hidden automatically.
+        Logo: save assets/clients/<name>.png (square works best). Without it, initials show.
+        To add a client, copy one article block.
+      -->
+      <div class="clients">
+        <article class="client" data-reveal>
+          <span class="logo" data-logo="assets/clients/phosaigon,assets/clients/Phosaigon"><b>PS</b></span>
+          <h3>Pho Saigon</h3>
+          <p class="client__role">Vietnamese restaurant</p>
+          <p class="client__what">End-to-end marketing: video, photo, design, KOL collaborations and reporting.</p>
+          <div class="client__links"><a href="https://www.facebook.com/REPLACE-PHOSAIGON" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/REPLACE-PHOSAIGON" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@REPLACE-PHOSAIGON" target="_blank" rel="noopener">TikTok</a><a href="https://REPLACE-PHOSAIGON-WEBSITE" target="_blank" rel="noopener">Website</a></div>
+        </article>
+        <article class="client" data-reveal>
+          <span class="logo" data-logo="assets/clients/roar,assets/clients/roarcoaching"><b>RC</b></span>
+          <h3>Roar Coaching</h3>
+          <p class="client__role">Coaching business</p>
+          <p class="client__what">Social media management and video editing for the brand's channels.</p>
+          <div class="client__links"><a href="https://www.instagram.com/REPLACE-ROAR" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/@REPLACE-ROAR" target="_blank" rel="noopener">YouTube</a><a href="https://roar-coaching.com" target="_blank" rel="noopener">Website</a></div>
+        </article>
+        <article class="client" data-reveal>
+          <span class="logo" data-logo="assets/clients/temple,assets/clients/templesomatics"><b>TS</b></span>
+          <h3>Temple Somatics</h3>
+          <p class="client__role">Holistic health</p>
+          <p class="client__what">Course management, social media, design, video and email marketing.</p>
+          <div class="client__links"><a href="https://www.facebook.com/REPLACE-TEMPLE" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/REPLACE-TEMPLE" target="_blank" rel="noopener">Instagram</a><a href="https://REPLACE-TEMPLE-WEBSITE" target="_blank" rel="noopener">Website</a></div>
+        </article>
+        <article class="client" data-reveal>
+          <span class="logo" data-logo="assets/clients/modmd"><b>mM</b></span>
+          <h3>modMD</h3>
+          <p class="client__role">Med spa</p>
+          <p class="client__what">Social media management, content editing and posting.</p>
+          <div class="client__links"><a href="https://www.instagram.com/REPLACE-MODMD" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/REPLACE-MODMD" target="_blank" rel="noopener">Facebook</a><a href="https://REPLACE-MODMD-WEBSITE" target="_blank" rel="noopener">Website</a></div>
+        </article>
+        <article class="client" data-reveal>
+          <span class="logo" data-logo="assets/clients/solace,assets/clients/sacredsolace"><b>SS</b></span>
+          <h3>Sacred Solace</h3>
+          <p class="client__role">Holistic wellness</p>
+          <p class="client__what">Course management in Go High Level, social media and email marketing.</p>
+          <div class="client__links"><a href="https://www.instagram.com/REPLACE-SOLACE" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/REPLACE-SOLACE" target="_blank" rel="noopener">Facebook</a><a href="https://REPLACE-SOLACE-WEBSITE" target="_blank" rel="noopener">Website</a></div>
+        </article>
+        <article class="client" data-reveal>
+          <span class="logo" data-logo="assets/clients/ambos"><b>AM</b></span>
+          <h3>AMBOS Panaderia + Cocina</h3>
+          <p class="client__role">Food brand, 2024 to 2025</p>
+          <p class="client__what">Social media, campaigns and a TikTok presence that grew the audience.</p>
+          <div class="client__links"><a href="https://www.instagram.com/REPLACE-AMBOS" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@REPLACE-AMBOS" target="_blank" rel="noopener">TikTok</a><a href="https://www.facebook.com/REPLACE-AMBOS" target="_blank" rel="noopener">Facebook</a></div>
+        </article>
+      </div>
+          <h3 class="proofs__title" data-reveal>What clients say</h3>
+      <!-- Save testimonial screenshots in assets/proof/ with these names -->
+      <div data-group>
+        <div class="proofs">
+          <figure class="shot" data-base="assets/proof/roarcoaching-testimonial" hidden><a target="_blank" rel="noopener"><img alt="Testimonial from Roar Coaching" decoding="async"></a><figcaption>Roar Coaching</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/templesomatics-testimonial" hidden><a target="_blank" rel="noopener"><img alt="Testimonial from Temple Somatics" decoding="async"></a><figcaption>Temple Somatics</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/modmd-testimonial" hidden><a target="_blank" rel="noopener"><img alt="Testimonial from modMD" decoding="async"></a><figcaption>modMD</figcaption></figure>
+          <figure class="shot" data-base="assets/proof/modmd-testimonial-2" hidden><a target="_blank" rel="noopener"><img alt="Second testimonial from modMD" decoding="async"></a><figcaption>modMD</figcaption></figure>
+        </div>
+      </div>
+</div>
+  </section>
+
+  <!-- Designs -->
+  <section class="section bg-lilac" id="designs" aria-labelledby="designs-title">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow" data-reveal>Graphic designs</p>
+        <h2 class="h2" id="designs-title" data-reveal style="--d:.05s">Posts, carousels and covers I've designed</h2>
+        <p class="lede" data-reveal style="--d:.12s">Click any piece to open it full size.</p>
+      </header>
+
+      <div class="filters" data-filters role="group" aria-label="Filter designs by client">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="phosaigon" aria-pressed="false">Pho Saigon</button>
+        <button type="button" data-filter="temple" aria-pressed="false">Temple Somatics</button>
+        <button type="button" data-filter="modmd" aria-pressed="false">modMD</button>
+        <button type="button" data-filter="roar" aria-pressed="false">Roar Coaching</button>
+        <button type="button" data-filter="other" aria-pressed="false">Other</button>
+      </div>
+
+      <!--
+        Each tile shows once its file exists in assets/designs/. Save files with these names.
+        To add a piece, copy a tile, change data-client, data-base (file name without .png) and the caption.
+      -->
+      <div data-group>
+        <div class="gallery" id="gallery" data-show="all">
+          <figure class="tile" data-client="phosaigon" data-base="assets/designs/phosaigon-feed-layout" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon Instagram feed layout" decoding="async"></a><figcaption><b>Pho Saigon</b>Feed layout</figcaption></figure>
+          <figure class="tile" data-client="phosaigon" data-base="assets/designs/phosaigon-our-journey" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon Our Journey timeline graphic" decoding="async"></a><figcaption><b>Pho Saigon</b>Our Journey timeline</figcaption></figure>
+          <figure class="tile" data-client="phosaigon" data-base="assets/designs/phosaigon-party-trays" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon Party Trays post" decoding="async"></a><figcaption><b>Pho Saigon</b>Party Trays</figcaption></figure>
+          <figure class="tile" data-client="phosaigon" data-base="assets/designs/phosaigon-lau-hot-pot" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon Lau Hot Pot post" decoding="async"></a><figcaption><b>Pho Saigon</b>Lau Hot Pot</figcaption></figure>
+          <figure class="tile" data-client="phosaigon" data-base="assets/designs/phosaigon-iced-coffee" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon iced coffee how-to carousel" decoding="async"></a><figcaption><b>Pho Saigon</b>Iced coffee carousel</figcaption></figure>
+          <figure class="tile" data-client="temple" data-base="assets/designs/temple-immersion" hidden><a target="_blank" rel="noopener"><img alt="Temple Somatics Immersion enrollment invitation" decoding="async"></a><figcaption><b>Temple Somatics</b>Immersion enrollment invitation</figcaption></figure>
+          <figure class="tile" data-client="temple" data-base="assets/designs/temple-carousel" hidden><a target="_blank" rel="noopener"><img alt="Temple Somatics educational carousel" decoding="async"></a><figcaption><b>Temple Somatics</b>Educational carousel</figcaption></figure>
+          <figure class="tile" data-client="temple" data-base="assets/designs/temple-quote" hidden><a target="_blank" rel="noopener"><img alt="Temple Somatics quote graphic" decoding="async"></a><figcaption><b>Temple Somatics</b>Quote graphic</figcaption></figure>
+          <figure class="tile" data-client="modmd" data-base="assets/designs/modmd-xeomin" hidden><a target="_blank" rel="noopener"><img alt="modMD Xeomin launch post" decoding="async"></a><figcaption><b>modMD</b>Xeomin launch</figcaption></figure>
+          <figure class="tile" data-client="modmd" data-base="assets/designs/modmd-testimonials" hidden><a target="_blank" rel="noopener"><img alt="modMD client testimonials post" decoding="async"></a><figcaption><b>modMD</b>Client testimonials</figcaption></figure>
+          <figure class="tile" data-client="modmd" data-base="assets/designs/modmd-peptide" hidden><a target="_blank" rel="noopener"><img alt="modMD Peptide Therapy post" decoding="async"></a><figcaption><b>modMD</b>Peptide Therapy</figcaption></figure>
+          <figure class="tile" data-client="roar" data-base="assets/designs/roar-cover" hidden><a target="_blank" rel="noopener"><img alt="Roar Coaching reel cover" decoding="async"></a><figcaption><b>Roar Coaching</b>Reel cover</figcaption></figure>
+          <figure class="tile" data-client="roar" data-base="assets/designs/roar-highlights" hidden><a target="_blank" rel="noopener"><img alt="Roar Coaching highlight covers" decoding="async"></a><figcaption><b>Roar Coaching</b>Highlight covers</figcaption></figure>
+          <figure class="tile" data-client="other" data-base="assets/designs/ambos-1" hidden><a target="_blank" rel="noopener"><img alt="AMBOS Panaderia + Cocina post" decoding="async"></a><figcaption><b>AMBOS Panaderia + Cocina</b>Social post</figcaption></figure>
+          <figure class="tile" data-client="other" data-base="assets/designs/ambos-2" hidden><a target="_blank" rel="noopener"><img alt="AMBOS Panaderia + Cocina post" decoding="async"></a><figcaption><b>AMBOS Panaderia + Cocina</b>Social post</figcaption></figure>
+        </div>
+        <p class="empty" data-empty hidden>My designs are being added. Check back soon, or email me for samples.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photos -->
+  <section class="section" id="photos" aria-labelledby="photos-title">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow" data-reveal>Photo content</p>
+        <h2 class="h2" id="photos-title" data-reveal style="--d:.05s">Photos I shoot and edit</h2>
+        <p class="lede" data-reveal style="--d:.12s">Food, product and brand photos made for social feeds. Click any photo to open it full size.</p>
+      </header>
+      <!-- Save files in assets/photos/ with these names (.jpg .png .webp). To add one, copy a figure and change data-base and the caption. -->
+      <div data-group>
+        <div class="photos">
+          <figure class="tile" data-base="assets/photos/phosaigon-1" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon food photography" decoding="async"></a><figcaption><b>Pho Saigon</b>Food photography</figcaption></figure>
+          <figure class="tile" data-base="assets/photos/phosaigon-2" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon food photography" decoding="async"></a><figcaption><b>Pho Saigon</b>Food photography</figcaption></figure>
+          <figure class="tile" data-base="assets/photos/phosaigon-3" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon food photography" decoding="async"></a><figcaption><b>Pho Saigon</b>Food photography</figcaption></figure>
+          <figure class="tile" data-base="assets/photos/phosaigon-4" hidden><a target="_blank" rel="noopener"><img alt="Pho Saigon food photography" decoding="async"></a><figcaption><b>Pho Saigon</b>Food photography</figcaption></figure>
+          <figure class="tile" data-base="assets/photos/ambos-1" hidden><a target="_blank" rel="noopener"><img alt="AMBOS product photo" decoding="async"></a><figcaption><b>AMBOS</b>Product photo</figcaption></figure>
+          <figure class="tile" data-base="assets/photos/ambos-2" hidden><a target="_blank" rel="noopener"><img alt="AMBOS product photo" decoding="async"></a><figcaption><b>AMBOS</b>Product photo</figcaption></figure>
+          <figure class="tile" data-base="assets/photos/temple-1" hidden><a target="_blank" rel="noopener"><img alt="Temple Somatics brand photo" decoding="async"></a><figcaption><b>Temple Somatics</b>Brand photo</figcaption></figure>
+          <figure class="tile" data-base="assets/photos/modmd-1" hidden><a target="_blank" rel="noopener"><img alt="modMD brand photo" decoding="async"></a><figcaption><b>modMD</b>Brand photo</figcaption></figure>
+        </div>
+        <p class="empty" data-empty hidden>My photo work is being added. Check back soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Videos -->
+  <section class="section bg-lilac" id="videos" aria-labelledby="videos-title">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow" data-reveal>Videos</p>
+        <h2 class="h2" id="videos-title" data-reveal style="--d:.05s">Reels and edits I've made</h2>
+        <p class="lede" data-reveal style="--d:.12s">Shot, edited and captioned by me. Tap play on any clip.</p>
+      </header>
+
+      <!--
+        Each clip shows once its file exists in assets/videos/. Save MP4 files with these names.
+        To add a clip, copy a figure, change data-video and the caption.
+      -->
+      <div data-group>
+        <figure class="reel" data-video="assets/videos/showreel.mp4" hidden>
+          <video controls playsinline preload="metadata"></video>
+          <figcaption><b>Showreel.</b> A few of my best edits in one video.</figcaption>
+        </figure>
+        <div class="clips">
+          <figure class="clip" data-video="assets/videos/phosaigon-best-reel.mp4" hidden><video controls playsinline preload="metadata"></video><figcaption><b>Pho Saigon</b>Best-performing reel</figcaption></figure>
+          <figure class="clip" data-video="assets/videos/phosaigon-behind-the-scenes.mp4" hidden><video controls playsinline preload="metadata"></video><figcaption><b>Pho Saigon</b>Behind the scenes</figcaption></figure>
+          <figure class="clip" data-video="assets/videos/phosaigon-kol-collab.mp4" hidden><video controls playsinline preload="metadata"></video><figcaption><b>Pho Saigon</b>Creator collaboration</figcaption></figure>
+          <figure class="clip" data-video="assets/videos/roar-talking-head.mp4" hidden><video controls playsinline preload="metadata"></video><figcaption><b>Roar Coaching</b>Talking-head edit with captions</figcaption></figure>
+          <figure class="clip" data-video="assets/videos/roar-highlight.mp4" hidden><video controls playsinline preload="metadata"></video><figcaption><b>Roar Coaching</b>Highlight cut</figcaption></figure>
+          <figure class="clip" data-video="assets/videos/brand-reel.mp4" hidden><video controls playsinline preload="metadata"></video><figcaption><b>Temple Somatics or modMD</b>On-brand reel</figcaption></figure>
+          <figure class="clip" data-video="assets/videos/ambos-tiktok.mp4" hidden><video controls playsinline preload="metadata"></video><figcaption><b>AMBOS Panaderia + Cocina</b>TikTok that took off</figcaption></figure>
+        </div>
+        <p class="empty" data-empty hidden>My videos are being added. Check back soon, or email me for samples.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Method -->
+  <section class="section" id="method" aria-labelledby="method-title">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow" data-reveal>How I work</p>
+        <h2 class="h2" id="method-title" data-reveal style="--d:.05s">From first idea to the final report</h2>
+        <p class="lede" data-reveal style="--d:.12s">I handle all five steps myself, so nothing gets lost between a strategist, a designer and an editor.</p>
+      </header>
+
+      <ol class="pipe" id="pipe">
+        <li>
+          <span class="pipe__node" aria-hidden="true"></span>
+          <h3>Plan</h3>
+          <p class="pipe__what">Campaigns and calendar</p>
+          <p class="pipe__desc">I plan campaigns and seasonal promotions with you, and set a posting schedule that is easy to keep.</p>
+        </li>
+        <li>
+          <span class="pipe__node" aria-hidden="true"></span>
+          <h3>Create</h3>
+          <p class="pipe__what">Photo, video, design</p>
+          <p class="pipe__desc">I shoot the photos and videos, edit the reels and design the graphics.</p>
+        </li>
+        <li>
+          <span class="pipe__node" aria-hidden="true"></span>
+          <h3>Publish</h3>
+          <p class="pipe__what">Social, web, email</p>
+          <p class="pipe__desc">I post across your channels and keep your website and email campaigns up to date.</p>
+        </li>
+        <li>
+          <span class="pipe__node" aria-hidden="true"></span>
+          <h3>Partner</h3>
+          <p class="pipe__what">KOLs and vloggers</p>
+          <p class="pipe__desc">I reach out to creators and set up collaborations that put your brand in front of new people.</p>
+        </li>
+        <li>
+          <span class="pipe__node" aria-hidden="true"></span>
+          <h3>Measure</h3>
+          <p class="pipe__what">Simple reports</p>
+          <p class="pipe__desc">I track reach, engagement and leads, and show you before and after numbers.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section bg-lilac" id="about" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div class="about__text">
+        <p class="eyebrow" data-reveal>About</p>
+        <h2 class="h2" id="about-title" data-reveal style="--d:.05s">I do the work myself, from the first shot to the last report</h2>
+        <div class="about__body" data-reveal style="--d:.15s">
+          <p class="lede">Shooting, editing, designing, posting and reporting. One person handles each step, so your brand stays consistent.</p>
+          <p>I'm a digital marketing manager with hands-on experience in social media management, video editing, website design, email marketing and paid ads. I've worked with restaurants, a med spa, and coaching and holistic health brands.</p>
+          <p>I graduated magna cum laude from Cavite State University in 2025 with a Bachelor in Business Administration, majoring in Marketing Management. I'm SEO certified through HubSpot Academy, and I completed a social media management certificate with MSTConnect PH.</p>
+          <p>Today I manage multiple clients at Semicolon Connects, a digital marketing agency, run marketing for Pho Saigon, and work directly with Roar Coaching.</p>
+        </div>
+      </div>
+
+      <div class="about__aside">
+        <figure class="shot shot--about" data-img="assets/about.jpg" hidden>
+          <img alt="Laila Dela Cruz at work" width="800" height="1000" decoding="async">
+        </figure>
+        <div class="now" data-reveal style="--d:.1s">
+          <p class="now__tag">Right now</p>
+          <h3>Digital Marketing Manager, Semicolon Connects</h3>
+          <p>I handle multiple clients in different niches, including course management, social media and email marketing.</p>
+        </div>
+        <div class="tools" data-reveal style="--d:.2s">
+          <h3>Tools I use</h3>
+          <dl>
+            <div><dt>Social media and ads</dt><dd>Meta Business Suite, Meta Ads Manager</dd></div>
+            <div><dt>Websites and SEO</dt><dd>Wix, Screaming Frog</dd></div>
+            <div><dt>Email and courses</dt><dd>Mailchimp, Go High Level</dd></div>
+            <div><dt>Design and video</dt><dd>Canva, CapCut</dd></div>
+            <div><dt>Planning</dt><dd>Trello, Google Sheets</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact bg-night" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <h2 class="contact__title" id="contact-title" data-reveal>Have a brand that needs to be seen?</h2>
+      <p class="contact__lede" data-reveal style="--d:.15s">Tell me about your business and what you want to grow. I'll tell you what I would do first.</p>
+
+      <div class="channels">
+        <div data-reveal style="--d:.2s">
+          <h3>Email</h3>
+          <a href="mailto:lailadcworks@gmail.com">lailadcworks@gmail.com</a>
+          <p>Best for project details and timelines.</p>
+        </div>
+        <div data-reveal style="--d:.3s">
+          <h3>Resume</h3>
+          <a href="assets/Laila-Dela-Cruz-Resume.pdf" target="_blank" rel="noopener">View the full resume</a>
+          <p>Every role and tool on three pages.</p>
+        </div>
+        <!--
+          To add LinkedIn, copy one block above and use:
+          <h3>LinkedIn</h3><a href="https://www.linkedin.com/in/YOUR-NAME/" target="_blank" rel="noopener">linkedin.com/in/YOUR-NAME</a>
+        -->
+      </div>
+
+      <p class="contact__where" data-reveal style="--d:.4s">Based in the Philippines. GMT+8. Open to client projects and remote roles.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Laila Dela Cruz. Digital marketing manager.</p>
+    <p><a href="#top">Back to top</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var root = document.documentElement;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasIO = 'IntersectionObserver' in window;
+
+  /* Header height feeds the scroll offset */
+  var head = document.getElementById('masthead');
+  function setHead() { root.style.setProperty('--head', head.offsetHeight + 'px'); }
+  setHead();
+  if ('ResizeObserver' in window) { new ResizeObserver(setHead).observe(head); }
+  else { window.addEventListener('resize', setHead); }
+
+  /* Image and video slots: hidden until the file loads */
+  var EXTS = ['.png', '.jpg', '.jpeg', '.webp'];
+
+  function loadImageSlot(slot, done) {
+    var img = slot.querySelector('img');
+    var link = slot.querySelector('a');
+    var exact = (slot.getAttribute('data-img') || '').trim();
+    var base = (slot.getAttribute('data-base') || '').trim();
+    if (!img || (!exact && !base)) { done(false); return; }
+    var tries = exact ? [exact] : [];
+    if (!exact) { EXTS.forEach(function (e) { tries.push(base + e); tries.push(base.replace(/^assets\//, '') + e); }); }
+    var i = 0;
+    function next() {
+      if (i >= tries.length) { done(false); return; }
+      img.src = tries[i++];
+    }
+    img.addEventListener('load', function () {
+      if (link) { link.href = img.currentSrc || img.src; }
+      slot.hidden = false;
+      done(true);
+    });
+    img.addEventListener('error', next);
+    next();
+  }
+
+  function loadVideoSlot(slot, done) {
+    var video = slot.querySelector('video');
+    var src = (slot.getAttribute('data-video') || '').trim();
+    if (!video || !src) { done(false); return; }
+    var settled = false;
+    function finish(ok) { if (!settled) { settled = true; done(ok); } }
+    video.addEventListener('loadedmetadata', function () { slot.hidden = false; finish(true); });
+    video.addEventListener('error', function () { finish(false); });
+    video.src = src;
+  }
+
+  function loadSlot(slot, done) {
+    if (slot.hasAttribute('data-video')) { loadVideoSlot(slot, done); }
+    else { loadImageSlot(slot, done); }
+  }
+
+  /* Slots inside a data-group show a friendly note if none of them load */
+  var groups = document.querySelectorAll('[data-group]');
+  groups.forEach(function (group) {
+    var slots = group.querySelectorAll('[data-base], [data-img], [data-video]');
+    var empty = group.querySelector('[data-empty]');
+    var pending = slots.length;
+    var loaded = 0;
+    if (!pending) { return; }
+    slots.forEach(function (slot) {
+      loadSlot(slot, function (ok) {
+        pending -= 1;
+        if (ok) { loaded += 1; }
+        if (pending === 0 && loaded === 0 && empty) { empty.hidden = false; }
+      });
+    });
+  });
+
+  /* Slots outside any group, such as the About photo */
+  document.querySelectorAll('[data-img]').forEach(function (slot) {
+    if (!slot.closest('[data-group]')) { loadSlot(slot, function () {}); }
+  });
+
+  /* Client links that still contain REPLACE are hidden; logos fall back to initials */
+  document.querySelectorAll('.client').forEach(function (card) {
+    var box = card.querySelector('.client__links');
+    var shown = 0;
+    box.querySelectorAll('a').forEach(function (a) {
+      if (/REPLACE/.test(a.getAttribute('href'))) { a.hidden = true; } else { shown += 1; }
+    });
+    if (!shown) {
+      var p = document.createElement('p');
+      p.className = 'client__none';
+      p.textContent = 'Page link coming soon';
+      box.appendChild(p);
+    }
+  });
+  document.querySelectorAll('[data-logo]').forEach(function (slot) {
+    var tries = [];
+    slot.getAttribute('data-logo').split(',').forEach(function (b) {
+      EXTS.forEach(function (e) { tries.push(b + e); tries.push(b.replace(/^assets\//, '') + e); });
+    });
+    var img = new Image();
+    var i = 0;
+    img.alt = '';
+    img.decoding = 'async';
+    img.addEventListener('load', function () { slot.appendChild(img); });
+    img.addEventListener('error', function () { if (i < tries.length) { img.src = tries[i++]; } });
+    img.src = tries[i++];
+  });
+
+  /* Live previews: Facebook and Instagram pages open inside the card */
+  document.querySelectorAll('.client').forEach(function (card) {
+    var box = card.querySelector('.client__links');
+    var found = [];
+    box.querySelectorAll('a').forEach(function (a) {
+      var href = a.getAttribute('href');
+      if (a.hidden) { return; }
+      if (/facebook\.com\//.test(href)) { found.push({ name: 'Facebook', src: 'https://www.facebook.com/plugins/page.php?href=' + encodeURIComponent(href) + '&tabs=timeline&width=500&height=480&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false' }); }
+      else if (/instagram\.com\//.test(href)) { found.push({ name: 'Instagram', src: href.replace(/[?#].*$/, '').replace(/\/?$/, '/') + 'embed' }); }
+    });
+    if (!found.length) { return; }
+    var bar = document.createElement('div');
+    bar.className = 'client__previews';
+    var holder = document.createElement('div');
+    holder.className = 'client__embed';
+    holder.hidden = true;
+    var open = null;
+    found.forEach(function (f) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = 'Preview ' + f.name;
+      b.setAttribute('aria-expanded', 'false');
+      b.addEventListener('click', function () {
+        bar.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-expanded', 'false'); });
+        if (open === f.name) { holder.hidden = true; holder.innerHTML = ''; open = null; return; }
+        open = f.name;
+        b.setAttribute('aria-expanded', 'true');
+        holder.innerHTML = '';
+        var fr = document.createElement('iframe');
+        fr.src = f.src;
+        fr.loading = 'lazy';
+        fr.title = card.querySelector('h3').textContent + ' on ' + f.name;
+        fr.setAttribute('allowfullscreen', '');
+        holder.appendChild(fr);
+        var note = document.createElement('p');
+        note.textContent = 'Blank? Some browsers block previews. Use the ' + f.name + ' button above instead.';
+        holder.appendChild(note);
+        holder.hidden = false;
+      });
+      bar.appendChild(b);
+    });
+    card.appendChild(bar);
+    card.appendChild(holder);
+  });
+
+  /* Design filters */
+  var gallery = document.getElementById('gallery');
+  var filterBox = document.querySelector('[data-filters]');
+  if (gallery && filterBox) {
+    filterBox.addEventListener('click', function (e) {
+      var btn = e.target.closest('button[data-filter]');
+      if (!btn) { return; }
+      gallery.setAttribute('data-show', btn.getAttribute('data-filter'));
+      filterBox.querySelectorAll('button').forEach(function (b) {
+        b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+      });
+    });
+  }
+
+  /* Counters */
+  function format(v, dec, prefix, suffix) {
+    return prefix + v.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec }) + suffix;
+  }
+  function readCounter(el) {
+    return {
+      to: parseFloat(el.getAttribute('data-count')),
+      from: parseFloat(el.getAttribute('data-from') || '0'),
+      dec: parseInt(el.getAttribute('data-decimals') || '0', 10),
+      prefix: el.getAttribute('data-prefix') || '',
+      suffix: el.getAttribute('data-suffix') || '',
+      delay: parseInt(el.getAttribute('data-delay') || '0', 10),
+      dur: parseInt(el.getAttribute('data-duration') || '1300', 10)
+    };
+  }
+  function runCounter(el) {
+    if (el.__ran) { return; }
+    el.__ran = true;
+    var c = readCounter(el);
+    setTimeout(function () {
+      var start = null;
+      function step(now) {
+        if (start === null) { start = now; }
+        var t = Math.min(1, (now - start) / c.dur);
+        var eased = 1 - Math.pow(1 - t, 3);
+        el.textContent = format(c.from + (c.to - c.from) * eased, c.dec, c.prefix, c.suffix);
+        if (t < 1) { requestAnimationFrame(step); }
+      }
+      requestAnimationFrame(step);
+    }, c.delay);
+  }
+
+  var counters = document.querySelectorAll('[data-count]');
+  var targets = document.querySelectorAll('[data-reveal], [data-trigger]');
+
+  if (reduce || !hasIO) {
+    targets.forEach(function (el) { el.classList.add('is-in'); });
+  } else {
+    counters.forEach(function (el) {
+      var c = readCounter(el);
+      el.textContent = format(c.from, c.dec, c.prefix, c.suffix);
+    });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) { return; }
+        e.target.classList.add('is-in');
+        e.target.querySelectorAll('[data-count]').forEach(runCounter);
+        io.unobserve(e.target);
+      });
+    }, { threshold: 0.2, rootMargin: '0px 0px -8% 0px' });
+    targets.forEach(function (el) { io.observe(el); });
+  }
+
+  /* Method steps light up one after another as they scroll into view */
+  var steps = document.querySelectorAll('#pipe li');
+  if (steps.length) {
+    if (reduce || !hasIO) {
+      steps.forEach(function (li) { li.classList.add('is-on'); });
+    } else {
+      var stepIO = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) { return; }
+          var li = e.target;
+          var index = Array.prototype.indexOf.call(steps, li);
+          setTimeout(function () { li.classList.add('is-on'); }, index * 140);
+          stepIO.unobserve(li);
+        });
+      }, { threshold: 0.4 });
+      steps.forEach(function (li) { stepIO.observe(li); });
+    }
+  }
+
+  /* Hero caption: types once, then stays */
+  var typer = document.querySelector('[data-type]');
+  if (typer && !reduce) {
+    var full = typer.textContent;
+    var typed = 0;
+    typer.textContent = '';
+    var typeNext = function () {
+      typed += 1;
+      typer.textContent = full.slice(0, typed);
+      if (typed < full.length) { setTimeout(typeNext, 36 + Math.random() * 40); }
+    };
+    setTimeout(typeNext, 700);
+  }
+})();
+</script>
+
+</body>
+</html>
