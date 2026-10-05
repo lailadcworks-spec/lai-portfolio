@@ -57,7 +57,7 @@
     assets/videos/<name>.mp4 ........... videos (names are in the Videos section below)
     assets/proof/<name>.png ............ cleaned Insights screenshots (names are in the Insights section)
     assets/photos/<name>.jpg ........... photography (names are in the Photos section)
-    assets/clients/<name>.png .......... client logos: phosaigon, roar, temple, modmd, solace, ambos
+    assets/clients/<name>.png .......... client logos: phosaigon, roar, temple, modmd, ambos
   Keep images under about 300 KB and videos under about 20 MB so the page loads fast.
 -->
 
@@ -305,6 +305,13 @@ p,li,dd,dt,h1,h2,h3,h4{overflow-wrap:break-word}
 .legend li{display:flex;align-items:center;gap:.55rem}
 .legend i{flex:none;width:.85rem;height:.85rem;border-radius:3px}
 .legend b{margin-left:auto;font-family:var(--serif);font-weight:600;color:var(--plum)}
+.proofs{align-items:start}
+.proofs .shot img{height:auto;object-fit:contain}
+.proofs--quotes{display:block;columns:2 20rem;column-gap:1.25rem}
+.proofs--quotes figure{display:inline-block;width:100%;margin:0 0 1.25rem;break-inside:avoid;border-radius:1.25rem;overflow:hidden;background:var(--paper);box-shadow:0 10px 28px rgba(0,0,0,.08)}
+.proofs--quotes img{display:block;width:100%;height:auto}
+.proofs--quotes figcaption{padding:.8rem 1.1rem;font-size:.8125rem;font-weight:600;color:var(--plum);display:flex;align-items:center;gap:.5rem}
+.proofs--quotes figcaption::before{content:"";width:.6rem;height:.6rem;border-radius:50%;background:var(--peach)}
 .proofs__title{margin-top:clamp(2rem,4vw,3rem);font-family:var(--serif);font-size:1.5rem;color:var(--plum)}
 .photos{margin-top:1.75rem;columns:14rem 4;column-gap:1rem}
 .photos .tile{display:inline-block}
@@ -679,8 +686,6 @@ p,li,dd,dt,h1,h2,h3,h4{overflow-wrap:break-word}
         </article>
 
       </div>
-
-      <p class="also" data-reveal><b>Also managing:</b> Sacred Solace, with course management in Go High Level, social media and email marketing.</p>
       <p class="fine" data-reveal>Numbers come from Meta Insights, Instagram Insights and public follower counts. Pho Saigon views are paid and organic combined.</p>
 
     </div>
@@ -793,35 +798,28 @@ p,li,dd,dt,h1,h2,h3,h4{overflow-wrap:break-word}
           <h3>Pho Saigon</h3>
           <p class="client__role">Vietnamese restaurant</p>
           <p class="client__what">End-to-end marketing: video, photo, design, KOL collaborations and reporting.</p>
-          <div class="client__links"><a href="https://www.facebook.com/REPLACE-PHOSAIGON" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/REPLACE-PHOSAIGON" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@REPLACE-PHOSAIGON" target="_blank" rel="noopener">TikTok</a><a href="https://REPLACE-PHOSAIGON-WEBSITE" target="_blank" rel="noopener">Website</a></div>
+          <div class="client__links"><a href="https://www.facebook.com/phosaigon.vietnam" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/REPLACE-PHOSAIGON" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@REPLACE-PHOSAIGON" target="_blank" rel="noopener">TikTok</a><a href="https://REPLACE-PHOSAIGON-WEBSITE" target="_blank" rel="noopener">Website</a></div>
         </article>
         <article class="client" data-reveal>
           <span class="logo" data-logo="assets/clients/roar,assets/clients/roarcoaching"><b>RC</b></span>
           <h3>Roar Coaching</h3>
           <p class="client__role">Coaching business</p>
           <p class="client__what">Social media management and video editing for the brand's channels.</p>
-          <div class="client__links"><a href="https://www.instagram.com/REPLACE-ROAR" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/@REPLACE-ROAR" target="_blank" rel="noopener">YouTube</a><a href="https://roar-coaching.com" target="_blank" rel="noopener">Website</a></div>
+          <div class="client__links"><a href="https://www.instagram.com/dimhapa/" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/@REPLACE-ROAR" target="_blank" rel="noopener">YouTube</a><a href="https://roar-coaching.com" target="_blank" rel="noopener">Website</a></div>
         </article>
         <article class="client" data-reveal>
           <span class="logo" data-logo="assets/clients/temple,assets/clients/templesomatics"><b>TS</b></span>
           <h3>Temple Somatics</h3>
           <p class="client__role">Holistic health</p>
           <p class="client__what">Course management, social media, design, video and email marketing.</p>
-          <div class="client__links"><a href="https://www.facebook.com/REPLACE-TEMPLE" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/REPLACE-TEMPLE" target="_blank" rel="noopener">Instagram</a><a href="https://REPLACE-TEMPLE-WEBSITE" target="_blank" rel="noopener">Website</a></div>
+          <div class="client__links"><a href="https://www.facebook.com/REPLACE-TEMPLE" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/triambikamavive/" target="_blank" rel="noopener">Instagram</a><a href="https://REPLACE-TEMPLE-WEBSITE" target="_blank" rel="noopener">Website</a></div>
         </article>
         <article class="client" data-reveal>
           <span class="logo" data-logo="assets/clients/modmd"><b>mM</b></span>
           <h3>modMD</h3>
           <p class="client__role">Med spa</p>
           <p class="client__what">Social media management, content editing and posting.</p>
-          <div class="client__links"><a href="https://www.instagram.com/REPLACE-MODMD" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/REPLACE-MODMD" target="_blank" rel="noopener">Facebook</a><a href="https://REPLACE-MODMD-WEBSITE" target="_blank" rel="noopener">Website</a></div>
-        </article>
-        <article class="client" data-reveal>
-          <span class="logo" data-logo="assets/clients/solace,assets/clients/sacredsolace"><b>SS</b></span>
-          <h3>Sacred Solace</h3>
-          <p class="client__role">Holistic wellness</p>
-          <p class="client__what">Course management in Go High Level, social media and email marketing.</p>
-          <div class="client__links"><a href="https://www.instagram.com/REPLACE-SOLACE" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/REPLACE-SOLACE" target="_blank" rel="noopener">Facebook</a><a href="https://REPLACE-SOLACE-WEBSITE" target="_blank" rel="noopener">Website</a></div>
+          <div class="client__links"><a href="https://www.instagram.com/REPLACE-MODMD" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/REPLACE-MODMD" target="_blank" rel="noopener">Facebook</a><a href="https://modmd.com/" target="_blank" rel="noopener">Website</a></div>
         </article>
         <article class="client" data-reveal>
           <span class="logo" data-logo="assets/clients/ambos"><b>AM</b></span>
@@ -834,7 +832,7 @@ p,li,dd,dt,h1,h2,h3,h4{overflow-wrap:break-word}
           <h3 class="proofs__title" data-reveal>What clients say</h3>
       <!-- Save testimonial screenshots in assets/proof/ with these names -->
       <div data-group>
-        <div class="proofs">
+        <div class="proofs proofs--quotes">
           <figure class="shot" data-base="assets/proof/roarcoaching-testimonial" hidden><a target="_blank" rel="noopener"><img alt="Testimonial from Roar Coaching" decoding="async"></a><figcaption>Roar Coaching</figcaption></figure>
           <figure class="shot" data-base="assets/proof/templesomatics-testimonial" hidden><a target="_blank" rel="noopener"><img alt="Testimonial from Temple Somatics" decoding="async"></a><figcaption>Temple Somatics</figcaption></figure>
           <figure class="shot" data-base="assets/proof/modmd-testimonial" hidden><a target="_blank" rel="noopener"><img alt="Testimonial from modMD" decoding="async"></a><figcaption>modMD</figcaption></figure>
